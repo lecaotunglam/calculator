@@ -38,7 +38,7 @@ class _MyHomePageState extends State<MyHomePage> {
           // Clear the error message if the input is valid
           _errorMessage = '';
           _counter +=1;
-          _result = _counter + _enteredNumber; // Incrémentation de la variable counter de 0
+          _result = _counter + _enteredNumber;
         }
         _click +=1;
       });
